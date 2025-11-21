@@ -1,0 +1,84 @@
+═══════════════════════════════════════════════════════════════
+  QUICK GUIDE: Add Screenshots to GitHub README
+═══════════════════════════════════════════════════════════════
+
+📋 STEP-BY-STEP INSTRUCTIONS:
+
+1️⃣ SAVE YOUR SCREENSHOTS
+   ─────────────────────────────────────────────────────────────
+   Save these 4 screenshots from your images:
+   
+   Screenshot 1: AWS Architecture Diagram (flowchart)
+   → Save as: architecture-diagram.png
+   
+   Screenshot 2: EC2 Instance Running
+   → Save as: ec2-instance.png
+   
+   Screenshot 3: VS Code with Python Code
+   → Save as: python-code.png
+   
+   Screenshot 4: Airflow DAG Success (green checkmark)
+   → Save as: airflow-dag-success.png
+
+
+2️⃣ COPY FILES TO IMAGES FOLDER
+   ─────────────────────────────────────────────────────────────
+   Copy all 4 files to:
+   
+   d:\AIRFLOW_ETL\images\
+   
+   Your folder structure should look like:
+   
+   d:\AIRFLOW_ETL\
+   ├── images\
+   │   ├── architecture-diagram.png
+   │   ├── ec2-instance.png
+   │   ├── python-code.png
+   │   └── airflow-dag-success.png
+   ├── README.md
+   ├── twitter_etl.py
+   └── twitter_dag.py
+
+
+3️⃣ COMMIT AND PUSH TO GITHUB
+   ─────────────────────────────────────────────────────────────
+   Open PowerShell in d:\AIRFLOW_ETL and run:
+   
+   git add images/
+   git add README.md
+   git commit -m "Add project screenshots and architecture diagram"
+   git push origin main
+
+
+4️⃣ VERIFY ON GITHUB
+   ─────────────────────────────────────────────────────────────
+   Visit your repository:
+   https://github.com/sandip9889/twitter_airflow_orchestration_by-ec2-and-s3-bucket
+   
+   Scroll down to see your screenshots in the README!
+
+
+═══════════════════════════════════════════════════════════════
+  IMPORTANT REMINDERS:
+═══════════════════════════════════════════════════════════════
+
+✅ File names must be EXACTLY as shown (lowercase, with hyphens)
+✅ Files must be in the "images" folder
+✅ Check that NO sensitive data is visible in screenshots
+✅ Recommended image format: PNG or JPG
+✅ Keep file sizes under 5MB each
+
+═══════════════════════════════════════════════════════════════
+
+🎯 WHAT YOU'LL SEE ON GITHUB:
+
+Your README will now have a beautiful visual flow showing:
+• Architecture diagram at the top
+• EC2 instance running
+• Your Python code
+• Successful Airflow DAG execution
+
+This makes your project look MUCH more professional! 🚀
+
+═══════════════════════════════════════════════════════════════
+

@@ -1,14 +1,48 @@
 # Twitter ETL Pipeline with Apache Airflow on AWS EC2
 
+[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
+[![Airflow](https://img.shields.io/badge/Airflow-3.1.3-orange.svg)](https://airflow.apache.org/)
+[![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20S3-yellow.svg)](https://aws.amazon.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 ## 📋 Project Overview
 
 This project implements an automated ETL (Extract, Transform, Load) pipeline that extracts tweets from Twitter using the Twitter API v2, processes the data using Python and Pandas, and stores the results in an Amazon S3 bucket. The pipeline is orchestrated using Apache Airflow running on an AWS EC2 instance.
+
+> **🎯 A production-ready data engineering project demonstrating end-to-end ETL pipeline development, cloud deployment, and workflow orchestration.**
 
 ## 🏗️ Architecture
 
 ```
 Twitter API → Apache Airflow (EC2) → Python ETL Script → Amazon S3
 ```
+
+### Architecture Diagram
+
+![AWS Architecture](images/architecture-diagram.png)
+
+*Complete AWS architecture showing the data flow from Twitter API through EC2 to S3 storage*
+
+---
+
+## 📸 Project Screenshots
+
+### 1. AWS EC2 Instance Running
+![EC2 Instance](images/ec2-instance.png)
+
+*EC2 instance successfully running with all status checks passed*
+
+### 2. Python ETL Code
+![Python Code](images/python-code.png)
+
+*Twitter ETL script with API integration and data processing logic*
+
+### 3. Airflow DAG Success
+![Airflow Success](images/airflow-dag-success.png)
+
+*Airflow DAG successfully executed - complete_twitter_etl task completed*
+
+---
 
 ## ✨ Features
 
