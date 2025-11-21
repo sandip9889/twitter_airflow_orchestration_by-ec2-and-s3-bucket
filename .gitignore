@@ -1,0 +1,69 @@
+# EC2 SSH Keys - NEVER commit these!
+*.pem
+*.ppk
+airflow_twitter_ec2.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+airflow_venv/
+
+# Airflow
+airflow.db
+airflow.cfg
+airflow-webserver.pid
+logs/
+*.log
+simple_auth_manager_passwords.json*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Credentials - NEVER commit these!
+*credentials*
+*secrets*
+*config.json
+
+# Data files (optional - exclude if data is sensitive)
+*.csv
+elon_musk_twitter_data.csv
+
+# Test/temporary files
+import tweepy.new.py
+*.new.py
+test_*.py
