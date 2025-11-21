@@ -48,3 +48,12 @@ def run_twitter_etl ():
     df = pd.DataFrame(tweet_list)
     # TODO: Replace 'YOUR_BUCKET_NAME' with your actual S3 bucket name
     df.to_csv("s3://YOUR_BUCKET_NAME/elon_musk_twitter_data.csv")
+
+
+
+#sample credential as jil are:----jil credential for twitter
+#access_key = "ggnfXZnsdAg8YMNFPS1yoS7p0"
+ #   access_secret = "sKt961DVcGM6SC1u0d9HGxjXaw44H183AgFsNekeBFFoYlWfe6"
+  #  consumer_key = "1944645466706350080-anjMdwiaAtmF0HqKQkqF7R78SYAh2T"
+   # consumer_secret = "nLUDNipwuqILgilsFwUbn3OgEbYTuO8tyyjcNa5kJ4iD5"
+    #bearer_token = "AAAAAAAAAAAAAAAAAAAAALst5gEAAAAAuWxY9xLEAJTx2R4H9%2FILt0acbsE%3D3uwUolC0GuvzgQGwua0lWeCDiQOIO4TZgBY0sTwhqbOVowCLdk
